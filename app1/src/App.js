@@ -1,8 +1,17 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+//import './style.css'
+//import './App.css';
 import React from 'react'
-import './style.css'
-import './App.css';
+import{Header,Content,Footer} from './func-components'
 
+function App(){
+  return(
+    [<Header/>,<Content/>,<Footer/>]
+  )
+}
+export default App
+
+/*
 function App() {
   return (
     <>
@@ -19,5 +28,4 @@ function App() {
   return <div style={divStyle}>Hello React</div>
   //return (<h3>Hello World! <br/>สวัสดีชาวโลก</h3>);
 }
-
-export default App;
+*/
