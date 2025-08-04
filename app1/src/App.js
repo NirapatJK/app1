@@ -1,37 +1,12 @@
 //import logo from './logo.svg';
 //import './style.css'
 //import './App.css';
+//import{Header,Content,Footer} from './func-components'
 import React from 'react'
-import{Header,Content,Footer} from './func-components'
-import Calendar from './class-components'
+import Button from './class-components'
 
 function App(){
-  return(
-    <>
-      <Header/>
-      <p><center><Calendar/></center></p>
-      <Content/>
-      <Footer/>
-    </>
-  )
+  return <Button/>
 }
-export default App
 
-/*
-function App() {
-  return (
-    <>
-    <h2>DeveloperThai.com</h2>
-    <div className='title'>React & React Native</div>
-    </>
-  )
-  const divStyle = {
-    color: 'red',
-    backgroundColor: 'powderblue',
-    fontSize: 'larger',
-    padding: '3px',
-  }
-  return <div style={divStyle}>Hello React</div>
-  //return (<h3>Hello World! <br/>สวัสดีชาวโลก</h3>);
-}
-*/
+export default App
